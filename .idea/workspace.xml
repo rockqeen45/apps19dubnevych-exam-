@@ -8,6 +8,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UYtsgbHPfXKKO6ZxRJHNVXYzUK" />
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -21,8 +24,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JsonBooleanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JsonObjectAddFindProjectionTest">
+    <configuration name="JSONApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JSONApp" />
+      <module name="exam_ucu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam_ucu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSONAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonObjectAddFindProjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam_ucu" />
       <extension name="coverage">
         <pattern>
@@ -31,15 +50,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="json" />
-      <option name="MAIN_CLASS_NAME" value="json.JsonBooleanTest" />
+      <option name="MAIN_CLASS_NAME" value="json.JsonObjectAddFindProjectionTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonObjectAddFindProjectionTest.testAddToEmptyJsonObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam_ucu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="json" />
+      <option name="MAIN_CLASS_NAME" value="json.JsonObjectAddFindProjectionTest" />
+      <option name="METHOD_NAME" value="testAddToEmptyJsonObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonObjectAddFindProjectionTest.testAddUpdateExistingValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam_ucu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="json" />
+      <option name="MAIN_CLASS_NAME" value="json.JsonObjectAddFindProjectionTest" />
+      <option name="METHOD_NAME" value="testAddUpdateExistingValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonBooleanTest" />
+        <item itemvalue="JUnit.JsonObjectAddFindProjectionTest" />
+        <item itemvalue="JUnit.JSONAppTest" />
+        <item itemvalue="JUnit.JsonObjectAddFindProjectionTest.testAddUpdateExistingValue" />
+        <item itemvalue="JUnit.JsonObjectAddFindProjectionTest.testAddToEmptyJsonObject" />
+        <item itemvalue="Application.JSONApp" />
       </list>
     </recent_temporary>
   </component>
@@ -55,5 +110,16 @@
       <updated>1575545565862</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
